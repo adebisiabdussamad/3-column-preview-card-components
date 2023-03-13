@@ -94,10 +94,13 @@ footer {
 
 footer a {
   color: hsl(179, 100%, 13%);
+  font-weight: bold;
+  transition: all 500ms;
 }
 
 footer a:hover {
   text-decoration: none;
+  color: hsl(31, 77%, 52%);
 }
 
 @media screen and (max-width: 1024px) {
